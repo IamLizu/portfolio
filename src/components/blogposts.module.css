@@ -1,0 +1,17 @@
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #D0F3F7;
+}
+.item {
+    margin: 20px 20px;
+    padding: 10px 35px;
+    background-color: wheat;
+    max-width: 200px;
+}
+.item a, a:visited{
+    text-decoration: none;
+    color: darkslategray;
+}
