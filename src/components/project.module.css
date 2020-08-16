@@ -1,0 +1,16 @@
+.container {
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.card {
+    background-color: red;
+    margin: 3% 10%;
+    padding: 10px 35px;
+}
+
+.card a, a:visited, a:hover {
+    text-decoration: none;
+    color: inherit;
+}

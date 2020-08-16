@@ -1,0 +1,37 @@
+[
+  {
+    "name" : "wpdetect",
+    "usedTechs" : "Python, Python3",
+    "url" : "https://iamlizu.com/tools/wpdetect/",
+    "audience" : "Pentesters, Bug Bounty Hunters",
+    "description" : "A WordPress detection tool, detects if a website is running WordPress. wpdetect is a great tool when you just want to check WordPress’ presence but do not want to scan the site for vulnerabilities or issues."
+  },
+  {
+    "name" : "twair",
+    "usedTechs" : "Python, Python3",
+    "url" : "https://github.com/iamlizu/twair",
+    "audience" : "Data Analysts, Engineer",
+    "description" : "A simple twitter account information retriever that collects information using tweepy — Twitter API for Python language."
+  },
+  {
+    "name" : "Article Schema Generator",
+    "usedTechs" : "C#, WPF",
+    "url" : "https://iamlizu.com/tools/article-schema-generator/",
+    "audience" : "SEO Experts, Webmasters",
+    "description" : "Generates schema in json-ld for your web pages containing Article."
+  },
+  {
+    "name" : "Article Schema Generator",
+    "usedTechs" : "JavaScript, ReactJS",
+    "url" : "https://asg.iamlizu.com/",
+    "audience" : "SEO Experts, Webmasters",
+    "description" : "Generates schema in json-ld for your web pages containing Article."
+  },
+  {
+    "name" : "Meme Generator",
+    "usedTechs" : "JavaScript, Svelte",
+    "url" : "https://meme-gen.iamlizu.com",
+    "audience" : "Everyone",
+    "description" : "What? Don't know photoshop? Want to try something lighter? Try Meme Generator today!"
+  }
+] 
