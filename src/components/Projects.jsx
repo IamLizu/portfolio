@@ -16,7 +16,7 @@ export default function Projects() {
     })
     return(
         <div className={styles.container}>
-            <h1>Projects</h1>
+            <h3 align="center" id={styles.header}>Notable Projects</h3>
             {works}
         </div>
     )

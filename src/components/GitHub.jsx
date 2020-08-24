@@ -17,7 +17,7 @@ export default function GitHub() {
 
     return(
         <div className={styles.container}>
-            <h1>GitHub</h1>
+            <h3 align="center" id={styles.header}>Picks from GitHub</h3>
             {repos}
         </div>
     )

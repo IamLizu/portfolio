@@ -14,11 +14,11 @@ export default function BlogPosts() {
         )
     })
     return(
-        <>
-            <h1>Blog Posts</h1>
+        <div className={styles.container}>
+            <h3 align="center" id={styles.header}>Blog Posts</h3>
             <div className={styles.itemContainer}>
                 {post}
             </div>
-        </>
+        </div>
     )
 }

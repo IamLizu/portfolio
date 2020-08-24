@@ -1,11 +1,17 @@
 .container {
-    background-color: black;
+    padding-top: 20px;
+    background-color: #212121;
     color: white;
     padding-bottom: 20px;
 }
 
+#header {
+    text-shadow: lavender;
+    text-transform: uppercase;
+}
+
 .card {
-    background-color: red;
+    background-color: #0288D1   ;
     margin: 3% 10%;
     padding: 10px 35px;
 }

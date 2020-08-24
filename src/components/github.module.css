@@ -1,7 +1,13 @@
 .container {
+    padding-top: 20px;
     background-color: red;
     color: white;
     padding-bottom: 20px;
+}
+
+#header {
+    text-shadow: lavender;
+    text-transform: uppercase;
 }
 
 .card {

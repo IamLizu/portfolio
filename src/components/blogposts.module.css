@@ -1,13 +1,24 @@
+.container{
+    padding-top: 5px;
+    background-color: #D0F3F7;
+}
+
 .itemContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #D0F3F7;
+    background-color: inherit;
 }
+
+#header {
+    text-shadow: lavender;
+    text-transform: uppercase;
+}
+
 .item {
-    margin: 20px 20px;
-    padding: 10px 35px;
+    margin: 10px 20px 20px 20px;
+    padding: 5px 35px;
     background-color: wheat;
     max-width: 200px;
 }
