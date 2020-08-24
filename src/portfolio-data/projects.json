@@ -7,11 +7,18 @@
     "description" : "A WordPress detection tool, detects if a website is running WordPress. wpdetect is a great tool when you just want to check WordPress’ presence but do not want to scan the site for vulnerabilities or issues."
   },
   {
-    "name" : "twair",
+    "name" : "harpies",
     "usedTechs" : "Python, Python3",
-    "url" : "https://github.com/iamlizu/twair",
-    "audience" : "Data Analysts, Engineer",
-    "description" : "A simple twitter account information retriever that collects information using tweepy — Twitter API for Python language."
+    "url" : "https://pypi.org/project/harpies/",
+    "audience" : "Developers",
+    "description" : "Helps you generating link previews on the fly! Use harpies to get the information of a webpage to generate a preview, then you know how you want to style the preview with the information."
+  },
+  {
+    "name": "lpier",
+    "usedTechs": "JavaScript, Next.js",
+    "url": "https://lpier.iamlizu.com/",
+    "audience": "Everyone",
+    "description" : "Next.js implementation of harpies, makes it easier to generate link preview in your website by pulling the required information for you!"
   },
   {
     "name" : "Article Schema Generator",
@@ -26,6 +33,13 @@
     "url" : "https://asg.iamlizu.com/",
     "audience" : "SEO Experts, Webmasters",
     "description" : "Generates schema in json-ld for your web pages containing Article."
+  },
+  {
+    "name" : "App Showcase",
+    "usedTechs" : "JavaScript, ReactJS",
+    "url" : "https://apps.iamlizu.com/",
+    "audience" : "Everyone",
+    "description" : "An automated single page application that showcases your projects and application fetching information from API."
   },
   {
     "name" : "Meme Generator",
