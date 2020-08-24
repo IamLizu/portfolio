@@ -3,10 +3,14 @@ import BlogPosts from './components/Blogposts';
 import Projects from './components/Projects';
 import { Grid } from '@material-ui/core'
 import GitHub from './components/GitHub';
+import Header from './components/Header'
 
 function App() {
   return (
       <>
+        <header>
+          <Header />
+        </header>
         <Grid container>
 
           <Grid item xs={12}>
