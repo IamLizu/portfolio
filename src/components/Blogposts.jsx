@@ -32,7 +32,7 @@ export default function BlogPosts() {
             </CardActionArea>
             <CardActions>
               <Button size="small" color="primary">
-                <a href={item.url}>Learn More</a>
+                <a href={item.url} target="_blank" rel="noopener noreferrer">Learn More</a>
               </Button>
             </CardActions>
           </Card>

@@ -7,7 +7,7 @@ export default function Certifications() {
     const certs = Certificates.map(item => {
         return(
             <div key={item.cert_url} className={styles.item}>
-                <a href={item.cert_url}>
+                <a href={item.cert_url} target="_blank" rel="noopener noreferrer">
                     <h3>{item.name}</h3>
                     <p>Issuer: {item.issuer}</p>
                     <p>Issued: {item.issued}</p>

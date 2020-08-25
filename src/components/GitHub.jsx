@@ -7,7 +7,7 @@ export default function GitHub() {
     const repos = githubData.map(item => {
         return(
             <div key={item.url} className={styles.card}>
-                <a href={item.url}>
+                <a href={item.url} target="_blank" rel="noopener noreferrer">
                     <h3>{item.title}</h3>
                     <p>{item.description}</p>
                 </a>

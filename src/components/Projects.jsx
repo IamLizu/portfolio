@@ -6,7 +6,7 @@ export default function Projects() {
     const works = ProjectList.map(item => {
         return(
             <div key={item.name} className={styles.card}>
-                <a href={item.url}>
+                <a href={item.url} target="_blank" rel="noopener noreferrer">
                     <h3>{item.name}</h3>
                     <p>Tech: {item.usedTechs} &bull; Audience: {item.audience}</p>
                     <p>{item.description}</p>
