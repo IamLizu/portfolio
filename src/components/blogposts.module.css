@@ -1,6 +1,6 @@
 .container{
     padding-top: 5px;
-    background-color: #D0F3F7;
+    background-color: #EDF3F3;
 }
 
 .itemContainer {
@@ -18,11 +18,8 @@
 
 .item {
     margin: 10px 20px 20px 20px;
-    padding: 5px 35px;
-    background-color: wheat;
-    max-width: 200px;
+    max-width: 350px;
 }
 .item a, a:visited{
     text-decoration: none;
-    color: darkslategray;
 }

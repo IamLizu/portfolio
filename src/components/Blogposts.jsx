@@ -1,16 +1,41 @@
 import React from 'react'
 import styles from './blogposts.module.css'
 import Posts from '../portfolio-data/blogpost.json'
+import Card from '@material-ui/core/Card';
+import CardActionArea from '@material-ui/core/CardActionArea';
+import CardActions from '@material-ui/core/CardActions';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Button from '@material-ui/core/Button';
+import Typography from '@material-ui/core/Typography';
 
 export default function BlogPosts() {
     const post = Posts.map(item => {
         return(
-            <div key={item.url} className={styles.item}>
-                <a href={item.url}>
-                    <h3>{item.title}</h3>
-                    <p>{item.description}</p>
-                </a>
-            </div>
+            <Card key={item.url} className={styles.item}>
+            <CardActionArea>
+              <CardMedia
+                component="img"
+                alt={item.title}
+                height="140"
+                image={item.image}
+                title={item.title}
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h6" component="h4">
+                  {item.title}
+                </Typography>
+                <Typography variant="body2" color="textSecondary" component="p">
+                  {item.description}
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+            <CardActions>
+              <Button size="small" color="primary">
+                <a href={item.url}>Learn More</a>
+              </Button>
+            </CardActions>
+          </Card>
         )
     })
     return(
