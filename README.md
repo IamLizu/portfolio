@@ -1,3 +1,7 @@
+## Getting Started
+First of all, before building change your info in `src/portfolio-data/` and change the homepage in package.json. You should add information in `src/portfolio-data/` only, no hardcode changing required.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
