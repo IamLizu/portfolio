@@ -4,6 +4,7 @@ import Projects from './components/Projects';
 import { Grid } from '@material-ui/core'
 import GitHub from './components/GitHub';
 import Header from './components/Header'
+import Certifications from './components/Certifications'
 
 function App() {
   return (
@@ -23,6 +24,10 @@ function App() {
 
           <Grid item xs={12} sm={6}>
             <GitHub />
+          </Grid>
+
+          <Grid item xs={12}>
+            <Certifications />
           </Grid>
 
         </Grid>
