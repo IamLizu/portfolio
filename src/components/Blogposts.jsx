@@ -17,7 +17,6 @@ export default function BlogPosts() {
               <CardMedia
                 component="img"
                 alt={item.title}
-                height="140"
                 image={item.image}
                 title={item.title}
               />
