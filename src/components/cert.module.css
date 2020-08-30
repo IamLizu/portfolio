@@ -15,7 +15,7 @@
     background-color: inherit;
 }
 
-.item {
+.cert {
     margin: 30px 30px;
     padding: 20px 35px;
     border: 0.5px solid #CDECF0;
@@ -23,6 +23,46 @@
     border-radius: 5px;
     width: 500px;
 }
-.item a, a:visited{
+.cert a, a:visited, a:hover{
     text-decoration: none;
+}
+
+.certUrl {
+    color: black;
+}
+
+@media only screen and (max-width: 1280px) {
+    .cert {
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .cert {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    .cert {
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .cert {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .cert {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .cert {
+        width: 500px;
+    }
 }
