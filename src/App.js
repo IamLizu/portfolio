@@ -1,10 +1,10 @@
 import React from 'react';
-import BlogPosts from './components/Blogposts';
-import Projects from './components/Projects';
+import BlogPosts from './components/Blogposts/Blogposts';
+import Projects from './components/Projects/Projects';
 import { Grid } from '@material-ui/core'
-import GitHub from './components/GitHub';
-import Header from './components/Header'
-import Certifications from './components/Certifications'
+import GitHub from './components/GitHub/GitHub';
+import Header from './components/Header/Header'
+import Certifications from './components/Certs/Certifications'
 
 function App() {
   return (

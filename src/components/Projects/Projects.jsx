@@ -1,8 +1,10 @@
 import React from 'react'
 import styles from './project.module.css'
-import ProjectList from '../portfolio-data/projects.json'
+import ProjectList from '../../portfolio-data/projects.json'
 
 export default function Projects() {
+
+    // creating project item from each entry of projects.json
     const works = ProjectList.map(item => {
         return(
             <div key={item.name} className={styles.card}>

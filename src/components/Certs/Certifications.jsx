@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './cert.module.css'
-import Certificates from '../portfolio-data/certs.json'
+import Certificates from '../../portfolio-data/certs.json'
 
 export default function Certifications() {
 
+    // creating cert element from each item of certs.json
     const certs = Certificates.map(item => {
         return(
             <div key={item.cert_url} className={styles.cert}>

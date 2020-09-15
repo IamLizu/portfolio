@@ -6,7 +6,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
-import PersonalInfo from '../portfolio-data/personal.json'
+import PersonalInfo from '../../portfolio-data/personal.json'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,6 +34,7 @@ export default function ButtonAppBar() {
           <Typography variant="h4" className={classes.title}>
             Portfolio <span className={classes.navName}>of <a className={classes.navLink} href="https://iamlizu.com/">{PersonalInfo.name}</a></span>
           </Typography>
+          
           <Button color="inherit"> <a className={classes.navLink} target="_blank" rel="noopener noreferrer" href={PersonalInfo.blog}>Blog</a> </Button>
           <Button color="inherit"> <a className={classes.navLink} target="_blank" rel="noopener noreferrer" href={`https://github.com/${PersonalInfo.github}`}>GitHub</a> </Button>
           <Button color="inherit"> <a className={classes.navLink} target="_blank" rel="noopener noreferrer" href={`https://twitter.com/${PersonalInfo.twitter}`}>Twitter</a> </Button>

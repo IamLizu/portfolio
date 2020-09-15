@@ -1,9 +1,10 @@
 import React from 'react'
 import styles from './github.module.css'
-import githubData from '../portfolio-data/github.json'
+import githubData from '../../portfolio-data/github.json'
 
 export default function GitHub() {
 
+    // creating cert element from each item of certs.json
     const repos = githubData.map(item => {
         return(
             <div key={item.url} className={styles.card}>
